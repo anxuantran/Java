@@ -1,6 +1,7 @@
 This is a project I worked on which simulates a simple race of 10 cars.
 It implements Processing for the visual interface, using hand-drawn animations.
-
+I used this project as tool to learn the many methods of Processing, including but not limited to loading images, manipulating frame rate, simple animations...
+The project implements many concepts of Object Oriented Programming, such as Dynamic Binding & Encapsulation.
 The buttons can be pressed to slow down, or speed up the simulation, with the third option of resetting it.
 
 I've created 5 cars manufactured before 2010, and 5 cars manufactured after. Each car obtains a random set of colors, and manufacturers.
@@ -11,3 +12,5 @@ Cars manufactured during or after 2010 will increase their velocity by 30mph whe
 All cars' speed will be set to 0mph when braking.
 
 The program demonstrates that the top 5 winners of the race will always be cars manufactured in 2010 or after.
+
+The src/data file stores all of the animations that I drew for this project.
