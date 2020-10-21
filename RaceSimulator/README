@@ -1,0 +1,13 @@
+This is a project I worked on which simulates a simple race of 10 cars.
+It implements Processing for the visual interface, using hand-drawn animations.
+
+The buttons can be pressed to slow down, or speed up the simulation, with the third option of resetting it.
+
+I've created 5 cars manufactured before 2010, and 5 cars manufactured after. Each car obtains a random set of colors, and manufacturers.
+Through each cycle of the program, each car goes through a random iteration of speeding up, slowing down, or braking.
+
+I've defined cars that were manufactured before 2010 to increase their velocity by 15mph when speeding up, deceasing their velocity by 5mph when slowing down.
+Cars manufactured during or after 2010 will increase their velocity by 30mph when speeding up, decreasing by 10mph when slowingn down.
+All cars' speed will be set to 0mph when braking.
+
+The program demonstrates that the top 5 winners of the race will always be cars manufactured in 2010 or after.
